@@ -12,12 +12,12 @@ Goal:\break
 \par\noindent
 TikZ:\break
 \begin{tikzpicture}
+	% Coordinate grid
+	\draw[step=0.5, very thin, lightgray] (-5,-5) grid (5,5);
+
 	% Coordinate axes
 	\draw[very thick] (-5,0) -- (5,0);
 	\draw[very thick] (0,-5) -- (0,5);
-
-	% Coordinate grid
-	\draw[step=0.5, very thin] (-5,-5) grid (5,5);
 
 	% Draw the function
 	\draw (-5,5) -- (0,0) -- (5,5);
